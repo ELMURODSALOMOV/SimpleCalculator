@@ -51,6 +51,10 @@ switch (operation)
     result = num1 / num2;
     System.Console.WriteLine("Natija: " + result);
     }
+    else
+    {
+        System.Console.WriteLine("Nolga bo'lish mumkin emas!");
+    }
     System.Console.WriteLine("Davom etasizmi!");
         DavomEt = Console.ReadLine();
         if(DavomEt == "yes")
