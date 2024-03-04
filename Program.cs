@@ -14,74 +14,41 @@ num2 = Convert.ToDouble(Console.ReadLine());
 switch (operation)
 {
     case '+':
-    result = num1 + num2;
-    System.Console.WriteLine("Natija: " + result);
-    System.Console.WriteLine("Davom etasizmi!");
-        DavomEt = Console.ReadLine();
-        if(DavomEt == "yes")
-        {
-            goto Salom;
-        }
-        else if(DavomEt == "NO")
-        {
-            System.Console.WriteLine("Goodbay");
-            break;
-        }
-    break;
+        result = num1 + num2;
+        System.Console.WriteLine("Natija: " + result);
+        break;
 
     case '-':
-    result = num1 - num2;
-    System.Console.WriteLine("Natija: " + result);
-    System.Console.WriteLine("Davom etasizmi!");
-        DavomEt = Console.ReadLine();
-        if(DavomEt == "yes")
-        {
-            goto Salom;
-        }
-        else if(DavomEt == "NO")
-        {
-            System.Console.WriteLine("Goodbay");
-            break;
-        }
-    break;
+        result = num1 - num2;
+        System.Console.WriteLine("Natija: " + result);
+        break;
 
     case '/':
-    if(num2 != 0)
-    {
-    result = num1 / num2;
-    System.Console.WriteLine("Natija: " + result);
-    }
-    else
-    {
-        System.Console.WriteLine("Nolga bo'lish mumkin emas!");
-    }
-    System.Console.WriteLine("Davom etasizmi!");
-        DavomEt = Console.ReadLine();
-        if(DavomEt == "yes")
+        if(num2 != 0)
         {
-            goto Salom;
+            result = num1 / num2;
+            System.Console.WriteLine("Natija: " + result);
         }
-        else if(DavomEt == "NO")
+        else
         {
-            System.Console.WriteLine("Goodbay");
-            break;
+            System.Console.WriteLine("Nolga bo'lish mumkin emas!");
         }
-    break;
+        break;
 
     case '*':
-    result = num1 * num2;
-    System.Console.WriteLine("Natija: " + result);
-    System.Console.WriteLine("Davom etasizmi!");
-        DavomEt = Console.ReadLine();
-        if(DavomEt == "yes")
-        {
-            goto Salom;
-        }
-        else if(DavomEt == "NO")
-        {
-            System.Console.WriteLine("Goodbay");
-            break;
-        }
-    break;
+        result = num1 * num2;
+        System.Console.WriteLine("Natija: " + result);
+        break;
 
+}
+System.Console.WriteLine("Davom etasizmi!");
+DavomEt = Console.ReadLine();
+if(DavomEt == "yes")
+{
+    goto Salom;
+}
+else if(DavomEt == "NO")
+{
+    System.Console.WriteLine("Goodbay");
+    
 }
