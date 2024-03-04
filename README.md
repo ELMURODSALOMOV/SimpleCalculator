@@ -1,8 +1,8 @@
 # SimpleCalculator
-## Bu loyida oddiy **calculator** dasturi bu.
+## Bu loyida oddiy **calculator** dasturi.
 ======================================================
 
-> Bu dastur orqali siz oddiy to'rt amalni bajaruvchi calculator dasturi
+> Bu dastur orqali siz oddiy to'rt amalni bajaruvchi calculator dasturini ko'rishiz mumkin.
 >
 >> ***Qo'shish, ayirish, bo'lish, ko'paytirish*** amallarini ko'rishingiz mumkin.
 
@@ -15,8 +15,8 @@
 Console.WriteLine("Kalkulatorga xush kelibsiz");
 ```
 
-### IMAGE
-![Home Page](/Code-Run.gif)
+### Run code
+![Home Page](/Code%20run.gif)
 
 
 

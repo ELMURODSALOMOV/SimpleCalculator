@@ -1,4 +1,8 @@
-﻿double num1, num2, result;
+﻿// ---------------------------------------------------------------
+// Copyright (c) Coalition of the Good-Hearted Engineers
+// FREE TO USE TO CONNECT THE WORLD
+// ---------------------------------------------------------------
+double num1, num2, result;
 char operation;
 string DavomEt;
 Salom:
@@ -7,7 +11,6 @@ System.Console.Write("Birinchi sonni kiriting: ");
 num1 = Convert.ToDouble(Console.ReadLine());
 System.Console.Write("Operator kiriting: ");
 operation = Convert.ToChar(Console.ReadLine());
-
 System.Console.Write("Ikkinchi sonni kiriting: ");
 num2 = Convert.ToDouble(Console.ReadLine());
 
@@ -17,12 +20,10 @@ switch (operation)
         result = num1 + num2;
         System.Console.WriteLine("Natija: " + result);
         break;
-
     case '-':
         result = num1 - num2;
         System.Console.WriteLine("Natija: " + result);
         break;
-
     case '/':
         if(num2 != 0)
         {
@@ -34,12 +35,10 @@ switch (operation)
             System.Console.WriteLine("Nolga bo'lish mumkin emas!");
         }
         break;
-
     case '*':
         result = num1 * num2;
         System.Console.WriteLine("Natija: " + result);
         break;
-
 }
 System.Console.WriteLine("Davom etasizmi!");
 DavomEt = Console.ReadLine();
