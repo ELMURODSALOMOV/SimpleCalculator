@@ -11,7 +11,7 @@
 3. Bo'lish
 4. Ko'paytirish
 
-```
+```csharp
 Console.WriteLine("Kalkulatorga xush kelibsiz");
 ```
 
