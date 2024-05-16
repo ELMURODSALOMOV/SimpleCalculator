@@ -21,5 +21,26 @@ namespace SimpleCalculator.Classes
             Console.WriteLine("Type 2nd number: ");
             SecondNumber = Convert.ToInt32(Console.ReadLine());
         }
+
+        public bool IsFirstNumberPositive()
+        {
+            return FirstNumber >= 0;
+        }
+
+        public void CompareInputs()
+        {
+            if(FirstNumber > SecondNumber)
+            {
+                Console.WriteLine("1st number is greater than 2nd number!");
+            }
+            else if(FirstNumber == SecondNumber)
+            {
+                Console.WriteLine("1st number is equal to 2nd number!");
+            }
+            else
+            {
+                Console.WriteLine("1st number is less than 2nd number!");
+            }
+        }
     }
 }
