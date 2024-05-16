@@ -14,3 +14,8 @@ string message =
 Console.WriteLine(message);
 
 calculator.CompareInputs();
+
+string result = (calculator.Calculate());
+Console.WriteLine(result);
+
+calculator.PrintEvenNumbers();

@@ -42,5 +42,27 @@ namespace SimpleCalculator.Classes
                 Console.WriteLine("1st number is less than 2nd number!");
             }
         }
+
+        public string Calculate()
+        {
+            return Operation switch
+            {
+                "+" => $"{FirstNumber} + {SecondNumber} = {FirstNumber + SecondNumber}",
+                "-" => $"{FirstNumber} + {SecondNumber} = {FirstNumber + SecondNumber}",
+                "/" => $"{FirstNumber} + {SecondNumber} = {FirstNumber + SecondNumber}",
+                _=> "Operation Not Found"
+            };
+        }
+
+        public void PrintEvenNumbers()
+        {
+            Console.WriteLine("Printing even numbers till first input... ");
+            int counter = 2;
+            while(counter < FirstNumber)
+            {
+                Console.WriteLine(counter);
+                counter += 2;
+            }
+        }
     }
 }
