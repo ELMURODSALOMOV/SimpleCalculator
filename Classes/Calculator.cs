@@ -64,5 +64,17 @@ namespace SimpleCalculator.Classes
                 counter += 2;
             }
         }
+
+        public void PrintMultiplicationTable()
+        {
+            for(int iterator = 0; iterator < 10; iterator++)
+            {
+                for(int innerIterator = 1; innerIterator < 10; innerIterator++)
+                {
+                    Console.WriteLine($"{iterator} x {innerIterator} = {iterator * innerIterator}");
+                }
+                Console.WriteLine("\n");
+            }
+        }
     }
 }
