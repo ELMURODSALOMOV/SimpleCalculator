@@ -5,6 +5,7 @@ Security security = new Security();
 Calculator calculator = new Calculator();
 
 security.CheckPassword();
+
 calculator.GetInputs();
 
 string message =
@@ -19,3 +20,5 @@ string result = (calculator.Calculate());
 Console.WriteLine(result);
 
 calculator.PrintEvenNumbers();
+
+calculator.PrintMultiplicationTable();
